@@ -1,3 +1,6 @@
+// Assumption: The input is NOT a palindrome, but it has to be made into one.
+// Restriction: Can only add character on one side
+
 shortestPalindrome = str => {
     let center = str.length-1
     while (str[center-1] === str[center]) {center--}

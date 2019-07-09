@@ -1,3 +1,6 @@
+// Check if input strings are anagrams of one another
+// Assumption: Nag a Ram and Anagram are anagrams
+
 const areAnagrams = (str1, str2) => {
     str1 = str1.toLowerCase().split(' ').join('')
     str2 = str2.toLowerCase().split(' ').join('')
