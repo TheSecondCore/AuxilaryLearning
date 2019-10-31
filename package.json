@@ -1,0 +1,26 @@
+{
+  "name": "datastructuresandalgos",
+  "version": "1.0.0",
+  "description": "A collection of Data Structures, Algoritms and Solutions for common technical interview questions.",
+  "main": "README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSecondCore/dataStructuresAndAlgos.git"
+  },
+  "author": "Martin Bagniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSecondCore/dataStructuresAndAlgos/issues"
+  },
+  "homepage": "https://github.com/TheSecondCore/dataStructuresAndAlgos#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

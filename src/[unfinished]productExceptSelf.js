@@ -4,7 +4,7 @@
 const productExceptSelf = arr => {
     let output = [1,1,1,1]
     for (let i = 0; i < arr.length; i++) {
-        output[i] =
+        output[i] = 'a'
     }
 }
 
