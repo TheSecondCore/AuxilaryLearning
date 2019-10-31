@@ -1,17 +1,8 @@
-/* eslint-disable no-plusplus */
-function getMinArrayValue(inputArray) {
-  return inputArray.reduce((acc, currentVal) => Math.min(acc, currentVal)); // Math.min(..[]);
-}
-
-function getMaxArrayValue(inputArray) {
-  return inputArray.reduce((acc, currentVal) => Math.max(acc, currentVal));
-}
-
 function countingSort(inputArray) {
   const numbersCount = [];
   const sortedItems = [];
-  const minValue = getMinArrayValue(inputArray);
-  const maxValue = getMaxArrayValue(inputArray);
+  const minValue = Math.min(...inputArray);
+  const maxValue = Math.max(...inputArray);
 
   for (let i = minValue; i <= maxValue; i++) {
     numbersCount[i] = 0;

@@ -10,7 +10,7 @@ function getNumAtPosition(number, positionFromRight) {
 function radixSort(inputArray) {
   let outputArray = inputArray;
   const maxLength = getMaxNumLength(outputArray);
-  for (let i = 0; i < maxLength; i += 1) {
+  for (let i = 0; i < maxLength; i++) {
     const buckets = Array.from({ length: 10 }, () => []);
     outputArray.forEach((value) => {
       buckets[getNumAtPosition(value, i)].push(value);

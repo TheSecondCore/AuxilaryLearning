@@ -12,10 +12,9 @@ function merge(left, right) {
 
 function mergeSort(inputArray) {
   if (inputArray.length < 2) return inputArray;
-
   const middleIndex = Math.floor(inputArray.length / 2);
-  const leftArray = inputArray.slice(0, middle);
-  const right = inputArray.slice(middle);
+  const left = inputArray.slice(0, middleIndex);
+  const right = inputArray.slice(middleIndex);
   return merge(mergeSort(left), mergeSort(right));
 }
 

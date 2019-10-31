@@ -1,4 +1,12 @@
-import Node from './Node';
+/* eslint-disable max-classes-per-file */
+// THIS IS CODE TO CTRL+C CTRL+V IN THE CONSOLE, WITHOUT IMPORTS.
+class Node {
+  constructor(data, right = null, left = null) {
+    this.data = data;
+    this.right = right;
+    this.left = left;
+  }
+}
 
 class BinarySearchTree {
   constructor() {
@@ -52,4 +60,11 @@ class BinarySearchTree {
   }
 }
 
-export default BinarySearchTree;
+const bst = new BinarySearchTree();
+bst.insertNode(1);
+bst.insertNode(12);
+bst.insertNode(23);
+bst.insertNode(60);
+bst.insertNode(14);
+
+console.log(bst.findNode(12));
