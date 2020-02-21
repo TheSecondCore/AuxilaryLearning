@@ -1,3 +1,6 @@
+console.log(countingSort([10, 5, 3, 8, 2, 6, 4, 18, 4, 2, -4, -23, 3]));
+// [-23, -4, 2, 2, 3, 3, 4, 4, 5, 6, 8, 10, 18]
+
 function countingSort(inputArray) {
   const numbersCount = [];
   const sortedItems = [];
@@ -19,5 +22,4 @@ function countingSort(inputArray) {
   return sortedItems;
 }
 
-console.log(countingSort([10, 5, 3, 8, 2, 6, 4, 18, 4, 2, -4, -23, 3]));
-// [-23, -4, 2, 2, 3, 3, 4, 4, 5, 6, 8, 10, 18]
+export default countingSort;
