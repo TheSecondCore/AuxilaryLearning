@@ -21,5 +21,6 @@ module.exports = {
         "no-plusplus": 0,
         "no-use-before-define": [2, "nofunc"],
         "import/extensions": 0,
+        "no-console": 0,
     }
 };
